@@ -1,0 +1,28 @@
+## Creating custome loaders for Webpack
+
+
+install the required dev dependencies
+$ npm install json-loader node-libs-browser strip-json-comments webpac --save-dev
+
+or run the the node.js package
+{
+  "name": "webpack-custom-loader",
+  "version": "1.0.0",
+  "description": "for webpack custome loader",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server -p "
+  },
+  "author": "christian-crisologo",
+  "license": "ISC",
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "node-libs-browser": "^1.0.0",
+    "strip-json-comments": "^2.0.1",
+    "webpack": "^1.13.0"
+  }
+}
+
+$ npm install
+
+
